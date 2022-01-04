@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .initial-flex {
+            flex-grow: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                        <div class="container-fluid">
+                            <span>
+                                <i class="fab fa-bootstrap" style="font-size: 2rem;
+                                color: blue;
+                                transform: translateY(8%);"></i>
+                                <a class="navbar-brand d-inline-block" href="#">Pricing example</a>
+
+                            </span>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse initial-flex" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Enterprise</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link active" href="#"> Support</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active">Pricing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/163046/welcome-to-our-home-welcome-tablet-an-array-of-163046.jpeg?cs=srgb&dl=pexels-pixabay-163046.jpg&fm=jpg"
+                                style="height: 400px; width: auto;" class="d-block w-100" alt="Ex1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/1280638/pexels-photo-1280638.jpeg?cs=srgb&dl=pexels-north-1280638.jpg&fm=jpg"
+                                style="height: 400px; width: auto;" class="d-block w-100" alt="Ex2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/5723324/pexels-photo-5723324.jpeg?cs=srgb&dl=pexels-anete-lusina-5723324.jpg&fm=jpg"
+                                style="height: 400px; width: auto;" class="d-block w-100" alt="Ex3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12">
+                <main>
+                    <section class="text-center pt-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 pb-md-4">
+                                    <p class="h2">Pricing</p>
+                                    <p class="fs-5 text-muted w-50" style="margin: auto;">
+                                        Quickly build an effective pricing table for your potential customers with this
+                                        Bootstrap example. It’s built with default Bootstrap components and utilities
+                                        with little customization.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <div class="card" style="height: 650px;">
+                                        <img src="https://pix10.agoda.net/hotelImages/290/290273/290273_111109164959819.jpg?ca=0&ce=1&s=1024x768"
+                                            class="card-img-top" style="height:65%; width: auto;" alt="Ex1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Free</h5>
+                                            <p class="card-text">$0/mo
+                                                <br> Hướng dẫn sử dụng
+                                                <br> Đặt chỗ nhanh, thanh toán đơn giản, sử dụng dễ dàng
+                                            </p>
+                                            <a href="#contact" class="btn btn-primary">Contact Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <div class="card" style="height: 650px;">
+                                        <img src="http://dulichsieukhuyenmai.com/user-upload/imgs/Hoi-An-Historical-Hotel-exo6-1024x550.jpg"
+                                            class="card-img-top" style="height:65%; width: auto;" alt="Ex1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pro</h5>
+                                            <p class="card-text">$15/mo
+                                                <br> Hướng dẫn sử dụng
+                                                <br> Đặt chỗ nhanh, thanh toán đơn giản, sử dụng dễ dàng
+                                            </p>
+                                            <a href="#contact" class="btn btn-primary">Contact Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <div class="card" style="height: 650px;">
+                                        <img src="https://jes.edu.vn/wp-content/uploads/2019/05/68184730.jpg"
+                                            class="card-img-top" style="height:65%; width: auto;" alt="Ex1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Enterprise</h5>
+                                            <p class="card-text">$29/mo
+                                                <br> Hướng dẫn sử dụng
+                                                <br> Đặt chỗ nhanh, thanh toán đơn giản, sử dụng dễ dàng
+                                            </p>
+                                            <a href="#contact" class="btn btn-primary">Contact Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <div class="col-12" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pb-md-4">
+                            <p class="h2 pt-5 text-center fw-light">Compare plans</p>
+                        </div>
+                        <div class="table-info">
+                            <table class="table" style="
+                            margin: auto;
+                            width: 80%;">
+                                <thead>
+                                    <tr>
+                                        <th class="col-6" scope="col"></th>
+                                        <th class="col-2 text-center" scope="col">Free</th>
+                                        <th class="col-2 text-center" scope="col">Pro</th>
+                                        <th class="col-2 text-center" scope="col">Enterprise</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Public</th>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Private</th>
+                                        <td class="text-center"></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Permissions</th>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Sharing</th>
+                                        <td class="text-center"></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Unlimited members</th>
+                                        <td class="text-center"></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Extra security</th>
+                                        <td class="text-center"></td>
+                                        <td class="text-center"></td>
+                                        <td class="text-center"><i class="fas fa-check"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <footer style="min-height: 460px;">
+                    <div class="col-12 pb-md-4">
+                        <p class="h2 pt-5 text-center fw-light">Contact Us</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Name</label>
+                            </div>
+                            <div class="form-floating  mb-3">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Phone</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div> 
+                            <div class="form-floating d-flex justify-content-end">
+                                <a href="#" class="btn btn-primary px-5">Send</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
